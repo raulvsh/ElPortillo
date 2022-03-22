@@ -11,7 +11,7 @@
 }
 
 #navegador li {
-	border-radius: 3px;
+	border-radius: 2px;
 	position: relative;
 	background-color: var(--primary);
 	border: 1px solid var(--secondary);
@@ -95,7 +95,7 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	min-width: 1fr;
-	border-radius: 3px;
+	border-radius: 0px;
 	transition: ease-in 0.2s all;
 	min-width: 10rem;
 	box-shadow: 2px 2px 7px lightgrey;

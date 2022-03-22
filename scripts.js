@@ -17,8 +17,8 @@ const indexView = () => {
 
 const monteriasView = () => {
 	let view = "";
-	view += `<div class="monterias"><h1>Servicios Cinegéticos El Portillo</h1>`;
-	view += "<h3>Monterías</h3>";
+	view += `<div class="monterias">`;
+	//view += "<h3>Monterías</h3>";
 	view += '<img class="monterias__img" src="./img/carteles/cartelcorzo.jpeg"/>';
 
 	view += `</div>`;
@@ -27,8 +27,8 @@ const monteriasView = () => {
 
 const recechosView = () => {
 	let view = "";
-	view += `<div class="recechos"><h1>Servicios Cinegéticos El Portillo</h1>`;
-	view += `<h3>Recechos</h3>`;
+	view += `<div class="recechos">`;
+	//view += `<h3>Recechos</h3>`;
 	view += '<img class="recechos__img" src="./img/carteles/carteljabali.jpeg"/>';
 
 	view += `</div>`;
