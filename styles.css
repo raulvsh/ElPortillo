@@ -1,0 +1,129 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat.ttf");
+}
+@font-face {
+	font-family: "Huntress";
+	src: url("fonts/huntress.otf");
+}
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+/*ATRIBUTOS GENERALES*/
+body {
+	--primary: #013e15;
+	--secondary: #f9cb99;
+	margin: 0px;
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	background-color: white;
+}
+
+button {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	text-decoration: none;
+	margin: 2px;
+	border: 1px solid var(--primary);
+	height: 28px;
+	font-size: 14px;
+	min-width: 150px;
+
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: ease-in 0.2s all;
+	padding: 0 8px 0 8px;
+	font-weight: bold;
+	border-radius: 3px;
+	transition: ease-in 0.2s all;
+	box-shadow: 2px 2px 7px lightgrey;
+}
+
+button:hover {
+	background: var(--primary);
+	color: white;
+	box-shadow: 2px 2px 7px grey;
+	transition: ease-in 0.2s all;
+}
+
+div#main {
+	margin: 0 0 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+.cabecera {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	font-family: "Huntress", sans-serif;
+}
+.cabecera h1 {
+	font-family: "Huntress", sans-serif;
+	font-size: 5rem;
+}
+
+/*PÁGINA PRINCIPAL*/
+div.cabecera img {
+	/*display: inline-block;*/
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 15rem;
+	height: 15rem;
+	cursor: pointer;
+}
+
+.formulariocontacto p {
+	font-size: medium;
+}
+
+.htmlinscripciones {
+	display: block;
+	/*max-height:90%; max-width:90%;*/
+	width: 100%;
+	height: 1900px;
+	/*width: fit-content;*/
+}
+
+/*Específico pantallas grandes (navegador escritorio)*/
+@media only screen and (min-width: 990px) {
+	.htmlinscripciones {
+		width: 1050px;
+		height: 1900px;
+		/*width: fit-content;*/
+	}
+}
+
+.monterias,
+.recechos,
+.esperas {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.monterias__img,
+.recechos__img,
+.esperas__img {
+	width: 50%;
+	display: flex;
+}
